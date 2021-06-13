@@ -117,3 +117,28 @@ section {
 .product-price::before {
   content: "$";
 }
+
+.form-row {
+  display: flex;
+}
+
+.form-field {
+  margin-right: 8px;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+input,
+textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+label {
+  position: relative;
+  top: -4px;
+}
+
+button {
+  padding: 8px;
+}
