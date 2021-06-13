@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 48px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header > h1 {
+  font-size: 24px;
+}
+
+header > nav > a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: black;
+}
