@@ -2,6 +2,8 @@
 
 In this project, you will practice various ways to control the position of elements. There is a guided video that you can follow along with to complete this project.
 
+Click [here](https://positioning.pushcode.dev/) to see the website we will be cloning for this project.
+
 ## Goals
 
 - Understand how the display property effects elements
