@@ -584,7 +584,174 @@ Nice work! You learned a lot in this unit, and I hope that you are having fun wh
 <summary>index.html</summary>
 
 ```html
-...
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>P</h1>
+      <nav>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <div class="banner-wrapper">
+      <input type="checkbox" id="dismiss" />
+      <div class="banner">
+        <label for="dismiss" class="dismiss-button">dismiss</label>
+        <p>
+          This is an informative message to let the user know some important
+          information that we want to call out to them. But they have the option
+          to dismiss it so it doesn't show anymore.
+        </p>
+      </div>
+    </div>
+    <div class="display-picture"></div>
+    <main>
+      <section id="about">
+        <h1>ABOUT SECTION</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus,
+          deleniti rem debitis at, perspiciatis hic blanditiis dolorum libero
+          illo cumque aliquid totam nobis atque! Quod accusamus commodi minus
+          nam omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Neque quia veniam quidem totam assumenda nobis ducimus, ea esse
+          provident facere officia, beatae aliquam eveniet consequuntur!
+          Repellendus a quam nesciunt ea.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+          adipisci necessitatibus hic numquam quaerat sint officia expedita
+          debitis quidem aut facere, suscipit eligendi quos enim tenetur et modi
+          sequi eaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Accusamus velit culpa adipisci iure natus rerum, dolor nulla quisquam
+          dolorem repellat praesentium deserunt, placeat quas ullam autem eaque,
+          minus quod vitae. Lorem, ipsum dolor sit amet consectetur adipisicing
+          elit. At facilis unde enim quia ea qui repellendus eos. Magni omnis
+          tenetur illo, quasi at asperiores sapiente ullam quibusdam nostrum
+          expedita quidem! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Impedit rerum rem provident odio sit. Facilis, ipsum? In
+          pariatur rem aut quas quam, dolorem asperiores error tenetur veniam
+          ex. Minus, praesentium.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus,
+          deleniti rem debitis at, perspiciatis hic blanditiis dolorum libero
+          illo cumque aliquid totam nobis atque! Quod accusamus commodi minus
+          nam omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Neque quia veniam quidem totam assumenda nobis ducimus, ea esse
+          provident facere officia, beatae aliquam eveniet consequuntur!
+          Repellendus a quam nesciunt ea.
+        </p>
+      </section>
+      <section id="products">
+        <h1>PRODUCTS SECTION</h1>
+        <div class="products-wrapper">
+          <div class="product">
+            <img
+              width="240px"
+              src="https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+              alt="product1"
+            />
+            <div class="product-details">
+              <div class="product-name">product 1</div>
+              <div class="product-description">this product is amazing!</div>
+              <div class="product-price">24</div>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              width="240px"
+              src="https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+              alt="product1"
+            />
+            <div class="product-details">
+              <div class="product-name">product 1</div>
+              <div class="product-description">this product is amazing!</div>
+              <div class="product-price">24</div>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              width="240px"
+              src="https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+              alt="product1"
+            />
+            <div class="product-details">
+              <div class="product-name">product 1</div>
+              <div class="product-description">this product is amazing!</div>
+              <div class="product-price">24</div>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              width="240px"
+              src="https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+              alt="product1"
+            />
+            <div class="product-details">
+              <div class="product-name">product 1</div>
+              <div class="product-description">this product is amazing!</div>
+              <div class="product-price">24</div>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              width="240px"
+              src="https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+              alt="product1"
+            />
+            <div class="product-details">
+              <div class="product-name">product 1</div>
+              <div class="product-description">this product is amazing!</div>
+              <div class="product-price">24</div>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              width="240px"
+              src="https://images.unsplash.com/photo-1601612628452-9e99ced43524?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+              alt="product1"
+            />
+            <div class="product-details">
+              <div class="product-name">product 1</div>
+              <div class="product-description">this product is amazing!</div>
+              <div class="product-price">24</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>CONTACT SECTION</h1>
+        <form>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="text" id="email" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+          </div>
+          <button>SEND MESSAGE</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
 ```
 
 </details>
@@ -594,7 +761,166 @@ Nice work! You learned a lot in this unit, and I hope that you are having fun wh
 <summary>index.css</summary>
 
 ```css
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  align-items: center;
+  padding: 0 48px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
 
+header > h1 {
+  font-size: 24px;
+}
+
+header > nav > a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  background-color: rgb(210, 228, 254);
+  color: rgb(0, 105, 255);
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 80px;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner > p {
+  width: 80%;
+}
+
+#dismiss:checked ~ .banner {
+  display: none;
+}
+
+#dismiss {
+  display: none;
+}
+
+.dismiss-button {
+  color: rgb(0, 105, 255);
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border: 1px solid rgba(0, 105, 255, 0.2);
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.display-picture {
+  background-image: url("https://images.unsplash.com/photo-1566814534947-46a09bcbb88c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=919&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+  margin-top: 80px;
+}
+
+main {
+  padding: 48px;
+  padding-top: 0;
+  background: white;
+}
+
+main h1 {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+main p {
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+section {
+  padding-top: 104px;
+}
+
+#products {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.product {
+  box-shadow: 0px 0px 6px #e6e6e6, 2px 0px 8px #e6e6e6;
+  margin-bottom: 24px;
+}
+
+.product-details {
+  padding: 8px 16px;
+}
+
+.product-name {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.product-description {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.product-price {
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.product-price::before {
+  content: "$";
+}
+
+form label {
+  display: block;
+  position: relative;
+  top: -4px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-field {
+  margin-right: 8px;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+input,
+textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  padding: 8px;
+}
 ```
 
 </details>
