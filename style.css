@@ -52,3 +52,32 @@ header > nav > a {
 #dismiss:checked ~ .banner {
   display: none;
 }
+
+.display-picture {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1519735777090-ec97162dc266?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1115&q=80");
+}
+
+main {
+  padding: 48px;
+  padding-top: 0;
+  background-color: white;
+}
+
+main h1 {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+main p {
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+section {
+  padding-top: 104px;
+}
