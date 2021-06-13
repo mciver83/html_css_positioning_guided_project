@@ -36,12 +36,12 @@ cd html-css-positioning-guided-project;
 
 ### Step 3.
 
-create and html file `index.html`, and css file `index.css`.
+create and html file `index.html`, and css file `style.css`.
 
 <details>
 
 ```
-touch index.html index.css
+touch index.html style.css
 ```
 
 </details>
@@ -109,7 +109,7 @@ It is always recommended that you reset the browsers styles. If they are not res
       href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIqcwYFMtqeikFk8F1d9J4oO4y1YDGY_YsMA&usqp=CAU"
     />
     <link href="reset.css" rel="stylesheet" />
-    <link href="index.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body></body>
 </html>
@@ -141,7 +141,7 @@ Let's create a header for our page. If you look at the header, we have a P on th
 
 <details>
 
-<summary>index.css</summary>
+<summary>style.css</summary>
 
 ```css
 * {
@@ -201,7 +201,7 @@ In this step, we will create an info banner that we can dimiss by clicking a but
 
 <details>
 
-<summary>index.css</summary>
+<summary>style.css</summary>
 
 ```css
 .banner {
@@ -260,7 +260,7 @@ In this step, we will create the main display image for the page.
 
 <details>
 
-<summary>index.css</summary>
+<summary>style.css</summary>
 
 ```css
 .display-picture {
@@ -331,7 +331,7 @@ In this step, we will create the about section.
 
 <details>
 
-<summary>index.css</summary>
+<summary>style.css</summary>
 
 ```css
 main {
@@ -453,7 +453,7 @@ In this step, we will create the products section.
 
 <details>
 
-<summary>index.css</summary>
+<summary>style.css</summary>
 
 ```css
 #products {
@@ -541,7 +541,7 @@ In this step, we will create the contact section.
 
 <details>
 
-<summary>index.css</summary>
+<summary>style.css</summary>
 
 ```css
 form label {
@@ -760,7 +760,7 @@ Nice work! You learned a lot in this unit, and I hope that you are having fun wh
 
 <details>
 
-<summary>index.css</summary>
+<summary>style.css</summary>
 
 ```css
 header {
